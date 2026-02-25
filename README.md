@@ -136,3 +136,114 @@ payment_mode = "offline"
 ## **Day 3:** 
 
 - Mock Test - [Take Test](https://forms.gle/hDpbYo4rTqwFR6w89)
+
+## **Day 4:**
+
+# **Problem Statements – Python OOP (Abstraction, Inheritance, Polymorphism)**
+
+---
+
+## **1. Bank Management System**
+
+### *Objective*
+Design a Python program for a **Bank Management System** that demonstrates:
+
+- **Abstraction** using an abstract class *BankAccount*
+- **Inheritance** using *SavingsAccount*
+- **Encapsulation** by protecting account balance
+- **Polymorphism** by overriding the *calculate_interest()* method
+- Use of **class** and **constructor**
+
+### *Sample Input*
+- **Name:** Ravi  
+- **Balance:** 10000  
+
+### *Sample Output*
+- **Balance:** 10000  
+- **Interest:** 400.0  
+
+---
+
+## **2. Library Management System**
+
+### *Objective*
+Create an abstract class **LibraryItem**.  
+Derive **Book** and override the issue logic.
+
+### *Input*
+- **Book Name:** Python Basics  
+
+### *Output*
+- **Book 'Python Basics' issued for 14 days**
+
+---
+
+## **3. Employee Payroll System**
+
+### *Objective*
+Create an abstract class **Employee**.  
+Derived classes **PermanentEmployee** and **ContractEmployee** override salary calculation.
+
+### *Input*
+- **Employee Type:** Permanent  
+
+### *Output*
+- **Salary:** 50000  
+
+---
+
+## **4. Vehicle Rental System**
+
+### *Objective*
+Create an abstract class **Vehicle**.  
+Derived classes **Car** and **Bike** override rent calculation.
+
+### *Input*
+- **Vehicle:** Car  
+- **Days:** 3  
+
+### *Output*
+- **Total Rent:** 3000  
+
+---
+
+## **5. Online Payment System**
+
+### *Objective*
+Create an abstract class **Payment**.  
+Derived classes **UPI**, **Card**, and **Cash** override the *pay()* method.
+
+### *Input*
+- **Payment Mode:** UPI  
+- **Amount:** 1500  
+
+### *Output*
+- **Paid ₹1500 using UPI**
+
+---
+
+## **6. Hospital Management System**
+
+### *Objective*
+Create an abstract class **Patient**.  
+Derived class **InPatient** overrides bill calculation.
+
+### *Input*
+- **Patient Type:** InPatient  
+
+### *Output*
+- **Total Bill:** 20000  
+
+---
+
+## **7. Shape Calculator**
+
+### *Objective*
+Create an abstract class **Shape**.  
+Derived classes **Rectangle** and **Circle** override the *area()* method.
+
+### *Input*
+- **Rectangle:** length = 10, breadth = 5  
+
+### *Output*
+- **Area of Rectangle:** 50
